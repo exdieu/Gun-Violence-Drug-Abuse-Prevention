@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&family=Neucha&display=swap');
+
+#dropdownMenuButton1 {
+  background-color: rgba(184, 73, 73, 0.5);
+}
+
+#paragraph {
+  font-size: 36px;
+  font-family: 'Comic Neue', cursive;
+  text-align: center;
+}
+
+/* #btn {
+  background-color: white;
+  font-size: 36px;
+  font-family: 'Comic Neue', cursive;
+  color: black;
+} */
+
+.modal-content {
+  background-color: rgba(184, 73, 73, 0.5);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  font-family: 'Comic Neue', cursive;
+  min-height: 80px;
+}
+
+.gun {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/3926749/pexels-photo-3926749.jpeg?cs=srgb&dl=pexels-cottonbro-3926749.jpg&fm=jpg");
+
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drug {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/7231430/pexels-photo-7231430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.help {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical_line {
+  border-left: 1px solid rgba(0, 0, 0, 0.096);
+  height: 30px;
+  width: 10px;
+}
+
+#bullseye {
+  color: rgba(184, 73, 73, 0.5);
+  font-size: 1.5rem;
+}
+
+#submit {
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.5rem;
+}
+
+.row {
+  text-align: center;
+  background-position: center;
+}
+
+.btn {
+  background-color: rgba(184, 73, 73, 0.5);
+}

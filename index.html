@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Gun Violence & Drug Abuse Prevention</title>
+  <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Script -->
+    <script src="https://kit.fontawesome.com/078b5591e4.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <!-- Lets Start From Here -->
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Gun Violence & Drug Abuse Prevention</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="vertical_line"></div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.drugabuse.gov/drug-topics" target="_blank">Drug Abuse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.cdc.gov/violenceprevention/firearms/fastfact.html" target="_blank">Gun Violence</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.addictioncenter.com/community-resources/" target="_blank"">Resources</a>
+          </li>
+          <a id="bullseye"><i class="fas fa-bullseye"></i> </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Container element -->
+  <div class="gun"></div>
+  <p id="paragraph">We understand that guns wouldn’t solve all the problems that happen around us. But life is still better without them. And many agree with that statement. We are here not to ban guns but to bring awareness of its dangers to our community. Learn how to protect yourself without using lethal weapons</p>
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Press Me
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+  
+
+  <!-- Container Element -->
+  <div class="drug"></div>
+  <p id="paragraph">Studies show that trying narcotics/drugs even once affect us physically and mentally. It can leave a permanent damage to an unsuspecting user in many ways including to those close to you. Please don’t be selfish. Be mindful</p>
+
+<!-- <style>
+</style>
+<body>
+<div class="center">
+  <button>Press Me</button>
+</div>
+
+</body>
+</html> -->
+
+
+  <!-- Container Element -->
+  <div class="help"></div>
+  
+  <p id="paragraph">Our team have taken a great amount of time to bring you the resources that can change your life. Are you ready to become better to yourself and others in this world?</p>
+  
+  <!-- <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
+  <p>
+    Some example text that's free-flowing within the dropdown menu.
+  </p>
+  <p class="mb-0">
+    And this is more example text.
+  </p>
+</div> -->
+
+
+<!-- head - Googlefonts link --> 
+<div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">Survey</h1>
+  <p id="description"><b>Note:</b> The purpose of this survey is a self relection of how you're feeling.</p>
+  
+  <!-- ------------------Personal Details---------------------------- -->
+  <fieldset>
+    <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+    <legend>Personal Details</legend>
+    <!-- formally describes the purpose of the fieldset it is included inside. -->
+    <div>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+    <div>
+      <label for="address-label">Emotional Status:</label>
+      <input type="Address" id="address" name="Address" placeholder="Enter emotional status">   </div>
+    <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+    <div>
+      <label id="number-label" for="phone">Phone Number:</label>
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9">  </div>
+    <div>
+      <label id="iq-label" for="iq">IQ:</label>
+      <input type="number" id="iq" name="iq" placeholder="Enter IQ here">   </div>
+
+    <!-- ------------------Radio Buttons-------------------------------- -->
+    <div>
+      <label for="Gender">Gender</label>
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Select
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Male</a></li>
+    <li><a class="dropdown-item" href="#">Female</a></li>
+    <li><a class="dropdown-item" href="#">Other</a></li>
+  </ul>
+</div>
+    </div>
+    <label for="date-label">Date:</label>
+    <input type="date" name="bday">
+  
+  </fieldset>
+  
+  <!-- -----------------Dropdown menus--------------------------------- -->
+ 
+    <html>
+<body>
+
+<p>Select your education level</p>
+
+<form action="/action_page.php">
+  <label for="edu">Education Level:</label>
+  <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Select
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">K-12</a></li>
+    <li><a class="dropdown-item" href="#">College/University</a></li>
+    <li><a class="dropdown-item" href="#">Work</a></li>
+     <li><a class="dropdown-item" href="#">Military</a></li>
+      <li><a class="dropdown-item" href="#">Retired</a></li>
+  </ul>
+</div>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+    </div>
+  </fieldset>
+
+  <!-- --------------------Text Areas------------------------------ -->
+
+  <!-- Footer -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html" target="_blank">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.samhsa.gov/find-help/national-helpline" target="_blank">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GV&D © 2021</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- test -->
+ 
+
+  <!-- Import JScripts -->
+  <!-- BootStrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <!-- Parallax JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Source -->
+  <script src="script.js"></script>
+
+  </body>
+</html>
